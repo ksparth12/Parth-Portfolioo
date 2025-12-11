@@ -1,0 +1,37 @@
+"use client";
+
+export default function Hero() {
+  return (
+    <section className="hero">
+      {/* Background Container */}
+      <div className="background">
+        {/* Stars Layer */}
+        <div className="stars" />
+        <div className="stars stars-2" />
+
+        {/* Fade Layer with Left and Right gradients */}
+        <div className="fade">
+          <div className="fade-left" />
+          <div className="fade-right" />
+        </div>
+
+        {/* Base - Dark circular planet with glow */}
+        <div className="base" />
+
+        {/* Ellipse - White to transparent gradient arc */}
+        <div className="ellipse" />
+
+        {/* Radial - Blurred bright glow at horizon */}
+        <div className="radial" />
+
+        {/* FX Layer */}
+        <div className="fx">
+          {/* Linear - Top fade */}
+          <div className="fx-linear" />
+          {/* Blur - Atmospheric blur layer */}
+          <div className="fx-blur" />
+        </div>
+      </div>
+    </section>
+  );
+}
